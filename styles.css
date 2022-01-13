@@ -1,0 +1,49 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.subhead {
+    color: black;
+    border: 5px solid white;
+    background-color: #ADD8E6;
+    font-size: 45px;
+    display: inline-block;
+    padding: 15px;
+}
+
+h1 {
+    display: inline-block;
+    color: black;
+    border: 5px solid white;
+    background-color: #ADD8E6;
+    font-size: 65px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gallery img {
+    height: 200px;
+    border: 10px double black;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+body {
+    text-align: center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05d6eeeb-c3a9-44e0-a812-f0c1142d6487/de9urfx-58af5c18-565f-4fc2-9db1-a5a128764b25.jpg/v1/fill/w_1280,h_720,q_75,strp/final_fantasy_background_by_marktailor_de9urfx-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMDVkNmVlZWItYzNhOS00NGUwLWE4MTItZjBjMTE0MmQ2NDg3XC9kZTl1cmZ4LTU4YWY1YzE4LTU2NWYtNGZjMi05ZGIxLWE1YTEyODc2NGIyNS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LSUR4zQuriU3mIAwj8nYM-_RiyyZp_LeYhkWbRK4S10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
